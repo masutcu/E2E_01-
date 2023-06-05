@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="34f387c8-5aca-4170-a1c5-6be428a35603" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Api129/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/Api129.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/RequestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../B129_Cucumber/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../B129_Cucumber/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../B129_Cucumber/src/test/java/techproed/stepDefinitions/AmazonStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../B129_Cucumber/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../B129_Cucumber/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/Configrations.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/pages/AmazonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/stepDefinitions/AmazonStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1001_amazonSearch.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1002_background.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1003_parametreKullanimi.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1004_configDosyasi.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Junit_Practice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Junit_Practice/src/test/java/prc_01/C01_Giris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Junit_Practice/src/test/java/prc_01/C02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenide/Configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/runner/Runners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/stepdefinitions/CommonStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/Reusable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/resources/features/01_navigations.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MedunnaHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MedunnaLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MedunnaRoomPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/MedunnaRoomStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/MedunnaSignInStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/endtoend_features/TC01_AdminOdaOlusturur.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/endtoend_features/TC01_AdminOdaOlusturur.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/MedunnaRoomStepDefinitions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/MedunnaSignInStepDefinitions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../postGreJDBC/postGreJDBC.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QmIFaDYq42uakDBQINNVdx1PWj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\medunnaE2E_Test\src\test\java\pages" />
+      <recent name="C:\Users\Lenovo\IdeaProjects\medunnaE2E_Test\src\test\resources\endtoend_features" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medunnaE2E_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34f387c8-5aca-4170-a1c5-6be428a35603" name="Changes" comment="" />
+      <created>1685952227829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685952227829</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
