@@ -1,4 +1,4 @@
-@e2e, @api
+@e2e
 Feature: Get Room
   Scenario: Get Room and Validate
     Given send get request to url
