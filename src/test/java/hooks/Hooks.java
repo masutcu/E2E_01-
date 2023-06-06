@@ -8,6 +8,7 @@ public class Hooks {
 
     @Before //cucumber dan import gerekli
     public  void beforeApi(){
+
         setUp();
     }
 

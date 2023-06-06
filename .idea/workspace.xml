@@ -43,11 +43,15 @@
       <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/Driver.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/Reusable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Selenide/src/test/resources/features/01_navigations.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/RoomPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DataBaseRoomStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/endtoend_features/TC04_DataBaseRoom.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../postGreJDBC/postGreJDBC.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/RoomPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/RoomPojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/ApiRoomStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ApiRoomStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/MedunnaRoomStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/MedunnaRoomStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/endtoend_features/TC02_ApiRoom.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/endtoend_features/TC02_ApiRoom.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/endtoend_features/TC03_ApiRoom.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/endtoend_features/TC03_ApiRoom.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

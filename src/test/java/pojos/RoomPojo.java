@@ -3,6 +3,8 @@ import io.cucumber.core.internal.com.fasterxml.jackson.annotation.JsonIgnoreProp
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class RoomPojo {
+
+    //karşıdan gelen data daha çok olacağı için ignore annotation eklemeliyiz
     private Integer roomNumber;
     private String roomType;
     private Boolean status;

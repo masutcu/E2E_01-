@@ -34,7 +34,8 @@ public class ApiRoomStepDefinitions {
     public void validate_body() {
         //Do assertion
         Object actualRoomType = response.jsonPath().getList("findAll{it.roomNumber=="+roomNumberFaker+"}.roomType").get(0);//Groovy language kullanıyoruz.
-        // Gelen body içinden bizim oluşturduğumuz odanın numarası ile filtreleme yapıyoruz.
+        // Gelen body içinden bizim oluşturduğumuz odanın numarası ile filtreleme yapıyoruz
+        // roomNumberFaker ın içinin dolması için runnerdan çaşırtırmamız lazım.
         Object actualStatus = response.jsonPath().getList("findAll{it.roomNumber=="+roomNumberFaker+"}.status").get(0);//Filtrelenen bodyden gerekli datayı nokta sonrasına belirterek alıyoruz.
         Object actualPrice = response.jsonPath().getList("findAll{it.roomNumber=="+roomNumberFaker+"}.price").get(0);
         Object actualDescription = response.jsonPath().getList("findAll{it.roomNumber=="+roomNumberFaker+"}.description").get(0);
@@ -51,7 +52,7 @@ public class ApiRoomStepDefinitions {
 
     @Given("send get request to url by id")
     public void sendGetRequestToUrlById() {
-        //Set the url --> https://medunna.com/api/rooms/55157
+        //Set the url --> https://medunna.com/api/rooms/:id
         spec.pathParams("first","api","second","rooms","third",roomId);
 
         //Set the expected data
@@ -59,7 +60,7 @@ public class ApiRoomStepDefinitions {
 
         //Send the request and get the response
         response = given(spec).get("{first}/{second}/{third}");
-        //response.prettyPrint();
+        response.prettyPrint();
 
     }
 
