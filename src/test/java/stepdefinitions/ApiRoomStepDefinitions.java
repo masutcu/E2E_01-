@@ -1,8 +1,11 @@
 package stepdefinitions;
 
-import io.cucumber.java.en.*;
+import io.cucumber.core.internal.com.fasterxml.jackson.core.JsonProcessingException;
+import io.cucumber.core.internal.com.fasterxml.jackson.databind.ObjectMapper;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
 import io.restassured.response.Response;
-import org.junit.Assert;
+import pojos.RoomPojo;
 
 import static base_urls.MedunnaBaseUrl.spec;
 import static io.restassured.RestAssured.given;
@@ -12,6 +15,7 @@ import static stepdefinitions.MedunnaRoomStepDefinitions.roomNumberFaker;
 
 public class ApiRoomStepDefinitions {
     Response response;
+    RoomPojo expectedData;
     @Given("send get request to url")
     public void send_get_request_to_url() {
         //Set the url--> https://medunna.com/api/rooms?sort=createdDate,desc
@@ -47,15 +51,28 @@ public class ApiRoomStepDefinitions {
 
     @Given("send get request to url by id")
     public void sendGetRequestToUrlById() {
-        //set the url https://medunna.com/api/rooms/54994
+        //Set the url --> https://medunna.com/api/rooms/55157
         spec.pathParams("first","api","second","rooms","third",roomId);
-        //set the expected data
 
+        //Set the expected data
+        expectedData = new RoomPojo(roomNumberFaker,"PREMIUM_DELUXE",true,123.00,"Created For End To End Test");
 
+        //Send the request and get the response
+        response = given(spec).get("{first}/{second}/{third}");
+        //response.prettyPrint();
 
     }
 
     @When("validate response body")
-    public void validateResponseBody() {
+    public void validateResponseBody() throws JsonProcessingException {
+        RoomPojo actualData = new ObjectMapper().readValue(response.asString(), RoomPojo.class);
+
+        assertEquals(200,response.statusCode());
+        assertEquals(expectedData.getRoomNumber(), actualData.getRoomNumber());
+        assertEquals(expectedData.getRoomType(), actualData.getRoomType());
+        assertEquals(expectedData.getStatus(), actualData.getStatus());
+        assertEquals(expectedData.getPrice(), actualData.getPrice());
+        assertEquals(expectedData.getDescription(), actualData.getDescription());
+
     }
 }
