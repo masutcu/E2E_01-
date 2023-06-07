@@ -6,10 +6,11 @@ import static base_urls.MedunnaBaseUrl.setUp;
 
 public class Hooks {
 
-    @Before //cucumber dan import gerekli
-    public  void beforeApi(){
+    @Before("@api")//Sadece parantez içinde belirtilen tag senaryoları öncesi çalışır
+    public void beforeApi(){
 
         setUp();
+
     }
 
 
