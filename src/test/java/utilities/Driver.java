@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class Driver {
 
 
-    private Driver() {
+    private Driver(){
 
     }
 
@@ -20,9 +20,8 @@ public class Driver {
     // henuz bu driver ile ilgili ayarlar yapmadigim icin baska class'lar bunu yanlislikla kullanmasin diye
     // erisimi private yaptik (sadece bu class'in kullanimina acik yaptik)
 
-
-    public static WebDriver getDriver() {
-        if (driver == null) {
+    public static WebDriver getDriver(){
+        if (driver==null){
             // if'i bu method her calistiginda yeni bir driver olusturmamasi icin kullaniyorruz
             // if driver'i kontrol edecek eger bir deger atamasi yapildiysa yeni bir driver olusturmayacak
             switch (ConfigReader.getProperty("browser")) {
@@ -53,13 +52,12 @@ public class Driver {
         return driver;
     }
 
-
-    public static void closeDriver() {
-        if (driver != null) {
+    public static void closeDriver(){
+        if (driver!=null){
             driver.quit();
         }
         // burada yeniden null degeri atamamizin sebebi. bir sonraki getDriver method'u cagirisimizda
         // yeni deger atayabilmek istememizdir.
-        driver = null;
+        driver=null;
     }
 }

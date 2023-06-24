@@ -4,73 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34f387c8-5aca-4170-a1c5-6be428a35603" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Api129/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/Api129.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/RequestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B129_Cucumber/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B129_Cucumber/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B129_Cucumber/src/test/java/techproed/stepDefinitions/AmazonStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B129_Cucumber/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B129_Cucumber/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/Configrations.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/pages/AmazonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/stepDefinitions/AmazonStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1001_amazonSearch.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1002_background.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1003_parametreKullanimi.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1004_configDosyasi.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Junit_Practice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Junit_Practice/src/test/java/prc_01/C01_Giris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Junit_Practice/src/test/java/prc_01/C02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenide/Configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/runner/Runners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/stepdefinitions/CommonStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/Reusable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenide/src/test/resources/features/01_navigations.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/api_test/RoomCreationStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ApiTest/RoomCreation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../postGreJDBC/postGreJDBC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="1f13b8da-5785-4ff2-ac43-38c7d9526878" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SeleniumGridKurulum.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/grid_test/GridStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/api_features/Room_Creation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/grid_features/gridtest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/MedunnaBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/MedunnaBaseUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/ApiRoomStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/e2e_test/ApiRoomStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/DataBaseRoomStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/e2e_test/DataBaseRoomStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/MedunnaRoomStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/e2e_test/MedunnaRoomStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/MedunnaSignInStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/e2e_test/MedunnaSignInStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/api_test/RoomCreationStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/api_test/RoomCreationStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/e2e_test/ApiRoomStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/e2e_test/ApiRoomStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/e2e_test/MedunnaSignInStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/e2e_test/MedunnaSignInStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/MedunnaRoomStepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/MedunnaSignInStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +40,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2QmIFaDYq42uakDBQINNVdx1PWj" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RSZuBUbmhxi87H8fcGaXX24ebE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -87,20 +56,52 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\IdeaProjects\medunnaE2E_Test\src\test\java\pages" />
-      <recent name="C:\Users\Lenovo\IdeaProjects\medunnaE2E_Test\src\test\resources\endtoend_features" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="Cucumber Java.Feature: Room_Creation">
+    <configuration name="Feature: RoomCreation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ApiTest/RoomCreation.feature" />
+      <option name="GLUE" value="hooks stepdefinitions.api_test" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="medunnaE2E_Test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: RoomCreation" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Room_Creation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/api_features/Room_Creation.feature" />
+      <option name="GLUE" value="hooks stepdefinitions.api_test" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="medunnaE2E_Test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Room_Creation" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: TC01_AdminOdaOlusturur" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/endtoend_features/TC01_AdminOdaOlusturur.feature" />
@@ -120,14 +121,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC02_ApiRoom" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: gridtest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/endtoend_features/TC02_ApiRoom.feature" />
-      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/grid_features/gridtest.feature" />
+      <option name="GLUE" value="stepdefinitions.grid_test hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="medunnaE2E_Test" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC02_ApiRoom" />
+      <option name="SUGGESTED_NAME" value="Feature: gridtest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,61 +136,27 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: TC03_ApiRoom" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/endtoend_features/TC03_ApiRoom.feature" />
-      <option name="GLUE" value="stepdefinitions hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="medunnaE2E_Test" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC03_ApiRoom" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medunnaE2E_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: Room_Creation" />
         <item itemvalue="Cucumber Java.Feature: TC01_AdminOdaOlusturur" />
-        <item itemvalue="Cucumber Java.Feature: TC03_ApiRoom" />
-        <item itemvalue="Cucumber Java.Feature: TC02_ApiRoom" />
+        <item itemvalue="Cucumber Java.Feature: RoomCreation" />
+        <item itemvalue="Cucumber Java.Feature: gridtest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="34f387c8-5aca-4170-a1c5-6be428a35603" name="Changes" comment="" />
-      <created>1685952227829</created>
+      <changelist id="1f13b8da-5785-4ff2-ac43-38c7d9526878" name="Changes" comment="" />
+      <created>1687245666162</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1685952227829</updated>
+      <updated>1687245666162</updated>
     </task>
     <servers />
   </component>
@@ -203,19 +170,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/hooks/Hooks.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

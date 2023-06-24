@@ -5,13 +5,12 @@ import io.cucumber.core.internal.com.fasterxml.jackson.databind.ObjectMapper;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.restassured.response.Response;
+import org.junit.Assert;
 import pojos.RoomPojo;
 
 import static base_urls.MedunnaBaseUrl.spec;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
-import static stepdefinitions.e2e_test.MedunnaRoomStepDefinitions.roomId;
-import static stepdefinitions.e2e_test.MedunnaRoomStepDefinitions.roomNumberFaker;
 
 public class ApiRoomStepDefinitions {
     Response response;
@@ -33,19 +32,19 @@ public class ApiRoomStepDefinitions {
     @When("validate body")
     public void validate_body() {
         //Do assertion
-        Object actualRoomType = response.jsonPath().getList("findAll{it.roomNumber=="+roomNumberFaker+"}.roomType").get(0);//Groovy language kullanıyoruz.
+        Object actualRoomType = response.jsonPath().getList("findAll{it.roomNumber=="+ MedunnaRoomStepDefinitions.roomNumberFaker+"}.roomType").get(0);//Groovy language kullanıyoruz.
         // Gelen body içinden bizim oluşturduğumuz odanın numarası ile filtreleme yapıyoruz
         // roomNumberFaker ın içinin dolması için runnerdan çaşırtırmamız lazım.
-        Object actualStatus = response.jsonPath().getList("findAll{it.roomNumber=="+roomNumberFaker+"}.status").get(0);//Filtrelenen bodyden gerekli datayı nokta sonrasına belirterek alıyoruz.
-        Object actualPrice = response.jsonPath().getList("findAll{it.roomNumber=="+roomNumberFaker+"}.price").get(0);
-        Object actualDescription = response.jsonPath().getList("findAll{it.roomNumber=="+roomNumberFaker+"}.description").get(0);
-        Object actualRoomNumber = response.jsonPath().getList("findAll{it.roomNumber=="+roomNumberFaker+"}.roomNumber").get(0);
+        Object actualStatus = response.jsonPath().getList("findAll{it.roomNumber=="+ MedunnaRoomStepDefinitions.roomNumberFaker+"}.status").get(0);//Filtrelenen bodyden gerekli datayı nokta sonrasına belirterek alıyoruz.
+        Object actualPrice = response.jsonPath().getList("findAll{it.roomNumber=="+ MedunnaRoomStepDefinitions.roomNumberFaker+"}.price").get(0);
+        Object actualDescription = response.jsonPath().getList("findAll{it.roomNumber=="+ MedunnaRoomStepDefinitions.roomNumberFaker+"}.description").get(0);
+        Object actualRoomNumber = response.jsonPath().getList("findAll{it.roomNumber=="+ MedunnaRoomStepDefinitions.roomNumberFaker+"}.roomNumber").get(0);
 
         assertEquals("PREMIUM_DELUXE", actualRoomType);
         assertEquals(true, actualStatus);
         assertEquals( "123.0", actualPrice+"");
         assertEquals( "Created For End To End Test", actualDescription);
-        assertEquals( roomNumberFaker, actualRoomNumber);
+        Assert.assertEquals( MedunnaRoomStepDefinitions.roomNumberFaker, actualRoomNumber);
 
 
     }
@@ -53,10 +52,10 @@ public class ApiRoomStepDefinitions {
     @Given("send get request to url by id")
     public void sendGetRequestToUrlById() {
         //Set the url --> https://medunna.com/api/rooms/:id
-        spec.pathParams("first","api","second","rooms","third",roomId);
+        spec.pathParams("first","api","second","rooms","third", MedunnaRoomStepDefinitions.roomId);
 
         //Set the expected data
-        expectedData = new RoomPojo(roomNumberFaker,"PREMIUM_DELUXE",true,123.00,"Created For End To End Test");
+        expectedData = new RoomPojo(MedunnaRoomStepDefinitions.roomNumberFaker,"PREMIUM_DELUXE",true,123.00,"Created For End To End Test");
 
         //Send the request and get the response
         response = given(spec).get("{first}/{second}/{third}");

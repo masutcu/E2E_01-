@@ -11,6 +11,7 @@ public class MedunnaSignInStepDefinitions  {
     MedunnaHomePage medunnaHomePage = new MedunnaHomePage();
     MedunnaLoginPage medunnaLoginPage = new MedunnaLoginPage();
     MedunnaRoomPage medunnaRoomPage = new MedunnaRoomPage();
+
     @Given("go to {string}")
     public void go_to(String url) {
         Driver.getDriver().get(url);
