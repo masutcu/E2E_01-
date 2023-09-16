@@ -13,8 +13,11 @@ public class MedunnaBaseUrl {
 
     public static void setUp(){
 
-        spec= new RequestSpecBuilder().setContentType(ContentType.JSON).addHeader("Authorization","Bearer "+generateToken())
-                .setBaseUri("https://medunna.com").build();
+        spec= new RequestSpecBuilder().
+                setContentType(ContentType.JSON).
+                addHeader("Authorization","Bearer "+generateToken()).
+                setBaseUri("https://medunna.com").
+                build();
 
     }
 }

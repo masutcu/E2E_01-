@@ -32,7 +32,7 @@ public class MedunnaRoomPage {
     public WebElement descriptionInput;
 
     @FindBy(id = "save-entity")
-    public WebElement saveSubmitButton;
+    public WebElement saveButton;
 
     @FindBy(xpath = "//span[.='Created Date']")
     public WebElement createdDate;
