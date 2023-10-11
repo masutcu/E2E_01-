@@ -18,7 +18,8 @@ public class GridStepDefs {
     @Given("user goes to app with chrome")
     public void user_goes_to_app_with_chrome() throws MalformedURLException {
     //RemoteDriver objesi oluştur --> new URL(),  new ChromeOptions()
-        driver = new RemoteWebDriver(new URL("http://192.168.1.38:4444"), new ChromeOptions());
+        //http://192.168.1.59:4444 bu adres değişebilir. cmd de grid açtıktan sonra localhost:4444 in verdiği adrestir.
+        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), new ChromeOptions());
     //Gerisi selenium...
         driver.get("https://www.bluerentalcars.com/");
 
@@ -41,7 +42,7 @@ public class GridStepDefs {
     @Given("user goes to app with firefox")
     public void userGoesToAppWithFirefox() throws MalformedURLException {
 
-        driver = new RemoteWebDriver(new URL("http://192.168.1.38:4444"), new FirefoxOptions());
+        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), new FirefoxOptions());
         driver.get("https://www.bluerentalcars.com/");
 
     }
@@ -49,7 +50,7 @@ public class GridStepDefs {
     @Given("user goes to app with edge")
     public void userGoesToAppWithEdge() throws MalformedURLException {
 
-        driver = new RemoteWebDriver(new URL("http://192.168.1.38:4444"), new EdgeOptions());
+        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), new EdgeOptions());
         driver.get("https://www.bluerentalcars.com/");
 
     }
