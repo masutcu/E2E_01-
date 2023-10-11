@@ -13,6 +13,24 @@ import java.net.URL;
 import static org.junit.Assert.assertEquals;
 
 public class GridStepDefs {
+    /*
+   Ders:https://lms.techproeducation.com/mod/book/view.php?id=6601&chapterid=32470
+   Selenium GRİD  testlerimizi paralel olarak farklı ortamlarda,
+   farklı tarayıcılarda veya farklı sayılarda koşmamıza yarayan bir SUNUCUdur.
+   Test komutları bir sunucu merkezi (HUB) tarafından alınır ve json biçimine çevrilir.
+   Bu json biçimindeki test komutları birden çok kayıtlı Grid Node una yönlendirilir ve burada çalıştırılır.
+
+   DİKKAT: Masaüstüne seleniumServer klasörü açtık ve
+   içine selenium-server-4.14.0.jar dosyasını, chrome, edge ve firefox(gecko) driver indirdik.
+   Bu klasörde cmd açtık.
+   cmd ekranında şu komutu gir: java -jar selenium-server-4.14.0.jar standalone
+
+   localhost:4444 tıkladığında çıkan Max. Concurrency: 16 sayısı aynı anda 16 test yapabileceğini gösterir.
+   testng de paralel test xml file ile cucumber da maven ile yapılır.
+
+   paralel test için 3 farklı runner ımızı aynı anda çalıştıracağız. Bunlardan biri Grid ve CrossBrowser testi yapıyor.
+   Terminali açıyoruz ve bukomutugiriyoruz: mvn clean verify  sonra : mvn clean install
+    */
     WebDriver driver;
 
     @Given("user goes to app with chrome")

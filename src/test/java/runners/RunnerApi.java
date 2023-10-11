@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
 
         features="src/test/resources",
         glue= {"stepdefinitions","hooks"},
-        tags="@e2e",
+        tags="@api",
         dryRun= false
 )
 
-public class Runner {
+public class RunnerApi {
 }
