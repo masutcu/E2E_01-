@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features="src/test/resources",
         glue= {"stepdefinitions","hooks"},
         tags="@grid_features",
-        dryRun= false
+        dryRun= false  //true yaparsak eksik olan stepdefinitionları görürüz
 )
 
 

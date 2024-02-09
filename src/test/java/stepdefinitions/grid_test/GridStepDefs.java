@@ -15,7 +15,7 @@ import static org.junit.Assert.assertEquals;
 public class GridStepDefs {
     /*
    Ders:https://lms.techproeducation.com/mod/book/view.php?id=6601&chapterid=32470
-   Selenium GRİD  testlerimizi paralel olarak farklı ortamlarda,
+   Selenium GRİD  testlerimizi paralel olarak farklı ortamlarda, (ders33 videosaaat1.18 de paralel anlatımı)
    farklı tarayıcılarda veya farklı sayılarda koşmamıza yarayan bir SUNUCUdur.
    Test komutları bir sunucu merkezi (HUB) tarafından alınır ve json biçimine çevrilir.
    Bu json biçimindeki test komutları birden çok kayıtlı Grid Node una yönlendirilir ve burada çalıştırılır.
@@ -35,10 +35,12 @@ public class GridStepDefs {
 
     @Given("user goes to app with chrome")
     public void user_goes_to_app_with_chrome() throws MalformedURLException {
-    //RemoteDriver objesi oluştur --> new URL(),  new ChromeOptions()
+
+        //RemoteDriver objesi oluştur --> new URL(),  new ChromeOptions()
         //http://192.168.1.59:4444 bu adres değişebilir. cmd de grid açtıktan sonra localhost:4444 in verdiği adrestir.
         driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), new ChromeOptions());
-    //Gerisi selenium...
+
+        //Gerisi selenium...
         driver.get("https://www.bluerentalcars.com/");
 
 
@@ -61,6 +63,7 @@ public class GridStepDefs {
     public void userGoesToAppWithFirefox() throws MalformedURLException {
 
         driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), new FirefoxOptions());
+       // driver = new RemoteWebDriver(new URL("localhost:4444"), new FirefoxOptions()); buda olabilirdi
         driver.get("https://www.bluerentalcars.com/");
 
     }

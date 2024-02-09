@@ -23,7 +23,9 @@ public class DataBaseRoomStepDefs {
     @Given("connect to database")
     public void connect_to_database() throws SQLException {
         //1. adım Connection
-       connection= DriverManager.getConnection("jdbc:postgresql://medunna.com:5432/medunna_db_v2","select_user","Medunna_pass_@6");
+       connection= DriverManager.getConnection("jdbc:postgresql://medunna.com:5432/medunna_db_v2",
+               "select_user",
+               "Medunna_pass_@6");
        //2. adım statement oluştur
        statement=connection.createStatement();
 
@@ -38,7 +40,7 @@ public class DataBaseRoomStepDefs {
         resultSet.next();//herbir next ile bir satır aşağı kayar, next() methodu pointer ı sıradaki satıra alır
 
         //expected data mız
-        RoomPojo expectedData=new RoomPojo(roomNumberFaker,"PREMIUM_DELUXE",true,123.00,"Created For End To End Test");
+        RoomPojo expectedData=new RoomPojo(roomNumberFaker,"SUITE",true,123.00,"Created For End To End Test");
 
         //actual datalarımız
         String roomType=resultSet.getString("room_type");
