@@ -38,7 +38,32 @@ public class GridStepDefs {
 
         //RemoteDriver objesi oluştur --> new URL(),  new ChromeOptions()
         //http://192.168.1.59:4444 bu adres değişebilir. cmd de grid açtıktan sonra localhost:4444 in verdiği adrestir.
-        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), new ChromeOptions());
+        /*
+        Selenium Grid
+Mülakatlarda sorulur ama çok kullanılmaz.
+
+Testlerimizi paralel olarak farklı ortamlarda,
+farklı tarayıcılarla, farklı sayılarda koşmamızı sağlayan bir sunucudur.
+
+selenium merkezine bağlanıp orada bir makineden çalışmamız için
+kurulum:
+masaüstüne bir klasör aç.
+içine
+1.selenium-server-4.14.0.jar
+2.chromedriver.exe crome son versiyon
+3.https://github.com/mozilla/geckodriver/releases 'dan geckodriver.exe //firefox driver
+4.msedgedriver.exe  edge son versiyon
+
+3 farklı driver oldu.
+
+masaüstü klasörde cmd aç.
+java -jar selenium-server-4.14.0.jar standalone (enter)
+
+cmd de çıkan http://192.168.1.38:4444 adresi url e girilir.başka çıkabilir.
+
+
+         */
+        driver = new RemoteWebDriver(new URL("http://192.168.1.37:4444"), new ChromeOptions());
 
         //Gerisi selenium...
         driver.get("https://www.bluerentalcars.com/");
@@ -62,7 +87,7 @@ public class GridStepDefs {
     @Given("user goes to app with firefox")
     public void userGoesToAppWithFirefox() throws MalformedURLException {
 
-        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), new FirefoxOptions());
+        driver = new RemoteWebDriver(new URL("http://192.168.1.37:4444"), new FirefoxOptions());
        // driver = new RemoteWebDriver(new URL("localhost:4444"), new FirefoxOptions()); buda olabilirdi
         driver.get("https://www.bluerentalcars.com/");
 
@@ -71,7 +96,7 @@ public class GridStepDefs {
     @Given("user goes to app with edge")
     public void userGoesToAppWithEdge() throws MalformedURLException {
 
-        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), new EdgeOptions());
+        driver = new RemoteWebDriver(new URL("http://192.168.1.37:4444"), new EdgeOptions());
         driver.get("https://www.bluerentalcars.com/");
 
     }
