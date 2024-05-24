@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1f13b8da-5785-4ff2-ac43-38c7d9526878" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/grid_test/GridStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/grid_test/GridStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunnerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/e2e_test/ApiRoomStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/e2e_test/ApiRoomStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/endtoend_features/TC02_ApiRoom.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/endtoend_features/TC02_ApiRoom.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/endtoend_features/TC03_ApiRoom.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/endtoend_features/TC03_ApiRoom.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RunnerGrid">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: gridtest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/grid_features/gridtest.feature" />
@@ -136,10 +140,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunnerGrid" />
-        <item itemvalue="Cucumber Java.Scenario: TC01_running_on_chrome" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="JUnit.RunnerApi" />
+        <item itemvalue="JUnit.RunnerGrid" />
+        <item itemvalue="Cucumber Java.Scenario: TC01_running_on_chrome" />
         <item itemvalue="Cucumber Java.Feature: gridtest" />
       </list>
     </recent_temporary>

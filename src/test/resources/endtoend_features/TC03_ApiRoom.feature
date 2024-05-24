@@ -1,5 +1,5 @@
 @e2e @api
-Feature: Get Room
+Feature: 2_Get Room
 
   Scenario: Get room and Validate2
 

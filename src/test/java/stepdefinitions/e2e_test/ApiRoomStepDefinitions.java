@@ -61,6 +61,7 @@ public class ApiRoomStepDefinitions {
 
         assertEquals(200, response.statusCode());
         assertEquals(expectedData.getRoomNumber(), actualData.getRoomNumber());
+        System.out.println("actual roomnumber"+actualData.getRoomNumber());
         assertEquals(expectedData.getPrice(), actualData.getPrice());
         assertEquals(expectedData.getStatus(), actualData.getStatus());
         assertEquals(expectedData.getDescription(), actualData.getDescription());

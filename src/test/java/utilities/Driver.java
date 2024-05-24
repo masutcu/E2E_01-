@@ -3,9 +3,11 @@ package utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class Driver {
@@ -29,8 +31,12 @@ public class Driver {
                 // configuration.properties dosyasinda browser olarak ne yazdiksa tum testlerimiz o browser'da calisacak
                 // browser secimi yapilmadiysa default olarak chrome devreye girecek
                 case "chrome":
-                    WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
+                    //WebDriverManager.chromedriver().setup(); //problem var 24.05.2024
+                    ChromeOptions options = new ChromeOptions();
+                    options.addArguments("--disable-popup-blocking");
+                    options.addArguments("--disable-notifications");
+                    driver = new ChromeDriver(options);
+
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
@@ -42,12 +48,11 @@ public class Driver {
                     driver = new EdgeDriver();
                     break;
                 default:
-                    WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
             }
 
             driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         }
         return driver;
     }
